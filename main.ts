@@ -40,7 +40,7 @@ input.onButtonPressed(Button.A, function () {
     kitronik_servo_lite.stop()
 })
 let strip: neopixel.Strip = null
-radio.setGroup(14)
+radio.setGroup(13)
 strip = neopixel.create(DigitalPin.P0, 5, NeoPixelMode.RGB)
 strip.setBrightness(25)
 basic.showIcon(IconNames.Heart)
